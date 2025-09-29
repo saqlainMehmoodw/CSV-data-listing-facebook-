@@ -21,17 +21,7 @@ Facebook marketplace bot that automatically removes and then uploads listings fr
 ## Installation
 1. You will need to have [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) installed (on Mac they are already installed)
 2. You will need to install the following packages with `pip`:
-    - Mac commands:
-      ```
-      pip3 install selenium
-      pip3 install webdriver-manager
-      ```
-    - Linux commands:
-      ```
-      pip install selenium
-      pip install pickle-mixin
-      pip install webdriver-manager
-      ```
+
     - Windows commands:
       ```
       python -m pip install selenium
@@ -53,12 +43,10 @@ Facebook marketplace bot that automatically removes and then uploads listings fr
 	- `Groups` column can have multiple groups and you will have to type their exact name and separate them by this symbol `;`. Example - `Group name 1; Group name 2; Group name`
 5. Open terminal inside the main project folder
 6. Run main.py with this command:
-    - Windows / Linux
-        ```
+    - Windows 
+      
         python main.py
-        ```
-    - Mac
-        ```
-        python3 main.py
-        ```
+        
+       
 7. The first time that you use the program, you will have to log in manually in the browser that have opened. After that the program will log in you automatically using the cookies from the first log in.
+
